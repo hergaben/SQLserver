@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuPolyclinics">
+
+    <fragment
+        android:id="@+id/menuPolyclinics"
+        android:name="com.sqlserver.polyclinic.PolyclinicFragment"
+        android:label="Polyclinics"
+        tools:layout="@layout/fragment_polyclinic" />
+    <fragment
+        android:id="@+id/menuDoctors"
+        android:name="com.sqlserver.doctor.DoctorFragment"
+        android:label="Doctors"
+        tools:layout="@layout/fragment_doctor" />
+    <fragment
+        android:id="@+id/menuDepartments"
+        android:name="com.sqlserver.department.DepartmentFragment"
+        android:label="Departments"
+        tools:layout="@layout/fragment_department" />
+    <fragment
+        android:id="@+id/menuTimetable"
+        android:name="com.sqlserver.timetable.TimetableFragment"
+        android:label="Timetable"
+        tools:layout="@layout/fragment_timetable" />
+    <fragment
+        android:id="@+id/menuAppointment"
+        android:name="com.sqlserver.appointment.AppointmentFragment"
+        android:label="Appointment"
+        tools:layout="@layout/fragment_appointment" />
+    <fragment
+        android:id="@+id/menuPatients"
+        android:name="com.sqlserver.patient.PatientFragment"
+        android:label="Patients"
+        tools:layout="@layout/fragment_patient" />
+    <fragment
+        android:id="@+id/menuDocuments"
+        android:name="com.sqlserver.document.DocumentFragment"
+        android:label="Documents"
+        tools:layout="@layout/fragment_document" />
+    <fragment
+        android:id="@+id/menuDiagnosis"
+        android:name="com.sqlserver.diagnosis.DiagnosisFragment"
+        android:label="Diagnosis"
+        tools:layout="@layout/fragment_diagnosis" />
+</navigation>

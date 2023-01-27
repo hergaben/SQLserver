@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuPolyclinics"
+            android:icon="@drawable/ic_hospital"
+            android:title="Поликлиника" />
+        <item
+            android:id="@+id/menuDepartments"
+            android:icon="@drawable/ic_department"
+            android:title="Отделение" />
+        <item
+            android:id="@+id/menuTimetable"
+            android:icon="@drawable/ic_timetable"
+            android:title="Расписание" />
+        <item
+            android:id="@+id/menuAppointment"
+            android:icon="@drawable/ic_appointment"
+            android:title="Прием" />
+        <item
+            android:id="@+id/menuDoctors"
+            android:icon="@drawable/ic_doctor"
+            android:title="Врач" />
+        <item
+            android:id="@+id/menuPatients"
+            android:icon="@drawable/ic_patient"
+            android:title="Пациент" />
+        <item
+            android:id="@+id/menuDiagnosis"
+            android:icon="@drawable/ic_diagnosis"
+            android:title="Диагноз" />
+        <item
+            android:id="@+id/menuDocuments"
+            android:icon="@drawable/ic_document"
+            android:title="Документ" />
+    </group>
+
+</menu>

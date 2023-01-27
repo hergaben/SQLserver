@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/idPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_marginEnd="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ФИО:"
+                android:fontFamily="@font/roboto_light_italic"
+                android:textSize="16sp"
+                android:layout_marginEnd="5dp"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/NamePatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мана Мансур Вономонамансур"
+                android:fontFamily="@font/roboto"
+                android:textColor="#00C853"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Телефон:"
+                android:fontFamily="@font/roboto_light_italic"
+                android:layout_marginStart="30dp"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:layout_marginEnd="5dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/Phone_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="77777777777"
+                android:fontFamily="@font/roboto"
+                android:textColor="#00C853"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="95dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Адрес:"
+                android:fontFamily="@font/roboto_light_italic"
+                android:textSize="16sp"
+                android:layout_marginStart="30dp"
+                android:textStyle="italic"
+                android:layout_marginEnd="5dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/Address_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="г.Москва ул.Никулинская 18"
+                android:fontFamily="@font/roboto"
+                android:textColor="#00C853"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
